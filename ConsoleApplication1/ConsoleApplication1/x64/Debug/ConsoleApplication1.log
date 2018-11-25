@@ -1,6 +1,0 @@
-﻿  ConsoleApplication1.cpp
-c:\users\joyce\documents\github\probestsimulacao\consoleapplication1\consoleapplication1\consoleapplication1.cpp(29): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
-c:\users\joyce\documents\github\probestsimulacao\consoleapplication1\consoleapplication1\consoleapplication1.cpp(149): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
-c:\users\joyce\documents\github\probestsimulacao\consoleapplication1\consoleapplication1\consoleapplication1.cpp(183): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
-c:\users\joyce\documents\github\probestsimulacao\consoleapplication1\consoleapplication1\consoleapplication1.cpp(211): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
-  ConsoleApplication1.vcxproj -> C:\Users\joyce\Documents\GitHub\ProbEstSimulacao\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
