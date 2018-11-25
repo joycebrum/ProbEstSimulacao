@@ -48,9 +48,6 @@ void atualizaFila() {
 double simularExpLambda(double lambda) {
 	double U = ((rand() % 100) + 1) / 101.0;
 	double x = -(1 / lambda) * log(U);
-	double abc = log(U);
-	/*printf("U = %lf, lambida = %lf, log(U) = %lf\n",U ,lambda, abc);
-	printf("%lf\n", x);*/
 
 	return x;
 }
@@ -101,68 +98,17 @@ void limpaVariaveis() {
 	}
 	hora = 0;
 }
-void letraA() {
-	double entrada = 1 / 10.0;
-	double atendimento = 1 / 5.0;
-
-	while (hora<480)
-	{
-		double tempoPassado = simularExpLambda(entrada);
-		hora = hora + tempoPassado;
-
-		atualizaFila();
-
-		if (hora <= 480)
-		{
-			cliente novoCliente = geraCliente(atendimento);
-		}
-		else
-		{
-			hora = hora - tempoPassado;
-			break;
-		}
-	}
-	cout << fila.size() << endl;
-	if (fila.size()>0)
-	{
-		for (unsigned int i = 0; i<fila.size(); i++)
-		{
-			result.push_back(fila.front());
-			fila.pop_front();
-		}
-	}
-	double media = 0;
-	int quant = 0;
-	cout << endl << endl << endl;
-	for (unsigned int i = 0; i<result.size(); i++)
-	{
-		cout << "cliente" << i << endl;
-		cout << "Hora de chegada: " << result[i].horaDeEntrada << endl;
-		cout << "Tempo de Espera: " << result[i].tempoDeEspera << endl;
-		cout << "Tempo de Atendimento: " << result[i].tempoDeAtendimento << endl << endl;
-
-		media = media + result[i].tempoDeEspera;
-	}
-	quant = result.size();
-	media = media / quant;
-	cout << "Quant: " << quant << endl;
-	cout << "Média: " << media << endl;
-}
 
 double amostra(double entrada, double atendimento) {
-	cout << "quantidade no inicio " << result.size() << endl;
-	int temporario = 0;
 	while (hora<480)
 	{
-		temporario++;
 		double tempoPassado = simularExpLambda(entrada);
 		hora = hora + tempoPassado;
-		cout << hora << endl;
 		atualizaFila();
 
 		if (hora <= 480)
 		{
-			cliente novoCliente = geraCliente(atendimento);
+			geraCliente(atendimento);
 		}
 		else
 		{
@@ -176,14 +122,25 @@ double amostra(double entrada, double atendimento) {
 	for (unsigned int i = 0; i<result.size(); i++)
 	{
 		media = media + result[i].tempoDeEspera;
+		// cout << "cliente" << i << endl;
+		// cout << "Hora de chegada: " << result[i].horaDeEntrada << endl;
+		// cout << "Tempo de Espera: " << result[i].tempoDeEspera << endl;
+		// cout << "Tempo de Atendimento: " << result[i].tempoDeAtendimento << endl << endl;
 	}
 	quant = result.size();
-	cout << media << " quantidade = " << quant << " quando na verdade é " << result.size()
-		<< " e foram " << temporario << " loops" << endl << endl;
 	media = media / quant;
 
 	return media;
 }
+
+void letraA() {
+	double entrada = 1 / 10.0;
+	double atendimento = 1 / 5.0;
+	double media = amostra(entrada, atendimento);
+	cout << "Quant: " << result.size() << endl;
+	cout << "Média: " << media << endl;
+}
+
 
 void letraC(double entrada, double atendimento, double z) {
 	double amostras[100];
@@ -191,7 +148,6 @@ void letraC(double entrada, double atendimento, double z) {
 	for (int i = 0; i < 100; i++) {
 		limpaVariaveis();
 		amostras[i] = amostra(entrada, atendimento);
-		cout << amostras[i] << endl << endl;
 		sumAmostras += amostras[i];
 	}
 	double mediaAmostral = sumAmostras / 100;
@@ -204,14 +160,33 @@ void letraC(double entrada, double atendimento, double z) {
 	cout << "intervalo de confiança = [" << mediaAmostral - temp << ", " << mediaAmostral + temp << "]" << endl;
 }
 
-int main() {
-	srand(time(NULL));
-	letraC(1 / 10.0, 1 / 5.0, 0.3159);
-	cout << "entrada = 5 minutos e atendimento = 10 minutos" << endl << endl;
-	limpaVariaveis();
-	letraC(1 / 5.0, 1 / 10.0, 0.3159);
 
-	return 0;
+void letraD () {
+	letraC(1 / 5.0, 1 / 10.0, 0.3159);
 }
 
+int main() {
+	srand(time(NULL));
+	char letra;
+	cout << "Digite a letra da questão dentre as opções  [a,c,d]" << endl;
+	cin >> letra;
+	switch(letra) {
+		case 'a':
+			cout << "Simula um dia de serviço" << endl;
+			letraA();
+			break;
+		case 'c':
+			cout << "Intervalo de confiança da média amostral" << endl;
+			letraC(1 / 10.0, 1 / 5.0, 0.3159);
+			break;
+		case 'd':
+			cout << "Intervalo de confiança da média amostral para parâmetros invertidos" << endl;
+			letraD();
+			break;
+		default:
+			cout << "Opção Inválida" << endl;
+			break;
+	}
+	return 0;
+}
 

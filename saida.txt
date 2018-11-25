@@ -1,0 +1,253 @@
+Digite a letra da questão dentre as opções  [a,c,d]
+cliente0
+Hora de chegada: 1.26484
+Tempo de Espera: 0
+Tempo de Atendimento: 5.59306
+
+cliente1
+Hora de chegada: 19.0839
+Tempo de Espera: 0
+Tempo de Atendimento: 9.53535
+
+cliente2
+Hora de chegada: 21.9278
+Tempo de Espera: 6.69148
+Tempo de Atendimento: 1.69227
+
+cliente3
+Hora de chegada: 47.2846
+Tempo de Espera: 0
+Tempo de Atendimento: 0.359129
+
+cliente4
+Hora de chegada: 51.5392
+Tempo de Espera: 0
+Tempo de Atendimento: 6.59642
+
+cliente5
+Hora de chegada: 63.6785
+Tempo de Espera: 0
+Tempo de Atendimento: 2.86035
+
+cliente6
+Hora de chegada: 70.9115
+Tempo de Espera: 0
+Tempo de Atendimento: 2.20367
+
+cliente7
+Hora de chegada: 83.0507
+Tempo de Espera: 0
+Tempo de Atendimento: 13.3461
+
+cliente8
+Hora de chegada: 86.4352
+Tempo de Espera: 9.96151
+Tempo de Atendimento: 5.90567
+
+cliente9
+Hora de chegada: 88.1599
+Tempo de Espera: 14.1425
+Tempo de Atendimento: 1.90507
+
+cliente10
+Hora de chegada: 103.401
+Tempo de Espera: 0.806771
+Tempo de Atendimento: 0.100003
+
+cliente11
+Hora de chegada: 104.666
+Tempo de Espera: 0
+Tempo de Atendimento: 14.1168
+
+cliente12
+Hora de chegada: 107.379
+Tempo de Espera: 11.4037
+Tempo de Atendimento: 11.5627
+
+cliente13
+Hora de chegada: 113.099
+Tempo de Espera: 17.2456
+Tempo de Atendimento: 1.69227
+
+cliente14
+Hora de chegada: 126.292
+Tempo de Espera: 5.74507
+Tempo de Atendimento: 4.63121
+
+cliente15
+Hora de chegada: 172.443
+Tempo de Espera: 0
+Tempo de Atendimento: 9.53535
+
+cliente16
+Hora de chegada: 175.828
+Tempo de Espera: 6.15081
+Tempo de Atendimento: 8.90954
+
+cliente17
+Hora de chegada: 177.912
+Tempo de Espera: 12.9763
+Tempo de Atendimento: 3.82486
+
+cliente18
+Hora de chegada: 187.174
+Tempo de Espera: 7.53878
+Tempo de Atendimento: 4.50774
+
+cliente19
+Hora de chegada: 188.108
+Tempo de Espera: 11.1132
+Tempo de Atendimento: 15.0284
+
+cliente20
+Hora de chegada: 204.815
+Tempo de Espera: 9.43481
+Tempo de Atendimento: 7.62039
+
+cliente21
+Hora de chegada: 225.316
+Tempo de Espera: 0
+Tempo de Atendimento: 8.35341
+
+cliente22
+Hora de chegada: 226.924
+Tempo de Espera: 6.74568
+Tempo de Atendimento: 4.38725
+
+cliente23
+Hora de chegada: 240.886
+Tempo de Espera: 0
+Tempo de Atendimento: 2.86035
+
+cliente24
+Hora de chegada: 255.257
+Tempo de Espera: 0
+Tempo de Atendimento: 2.52123
+
+cliente25
+Hora de chegada: 257.97
+Tempo de Espera: 0
+Tempo de Atendimento: 4.04229
+
+cliente26
+Hora de chegada: 279.272
+Tempo de Espera: 0
+Tempo de Atendimento: 2.12733
+
+cliente27
+Hora de chegada: 286.105
+Tempo de Espera: 0
+Tempo de Atendimento: 4.63121
+
+cliente28
+Hora de chegada: 299.298
+Tempo de Espera: 0
+Tempo de Atendimento: 2.68792
+
+cliente29
+Hora de chegada: 321.47
+Tempo de Espera: 0
+Tempo de Atendimento: 14.1168
+
+cliente30
+Hora de chegada: 321.772
+Tempo de Espera: 13.8153
+Tempo de Atendimento: 11.0861
+
+cliente31
+Hora de chegada: 325.157
+Tempo de Espera: 21.5169
+Tempo de Atendimento: 7.85299
+
+cliente32
+Hora de chegada: 327.613
+Tempo de Espera: 26.9131
+Tempo de Atendimento: 3.22414
+
+cliente33
+Hora de chegada: 343.807
+Tempo de Espera: 13.9434
+Tempo de Atendimento: 8.62374
+
+cliente34
+Hora de chegada: 351.892
+Tempo de Espera: 14.4825
+Tempo de Atendimento: 11.0861
+
+cliente35
+Hora de chegada: 354.868
+Tempo de Espera: 22.5923
+Tempo de Atendimento: 2.35993
+
+cliente36
+Hora de chegada: 366.362
+Tempo de Espera: 13.4584
+Tempo de Atendimento: 0.746062
+
+cliente37
+Hora de chegada: 377.548
+Tempo de Espera: 3.01836
+Tempo de Atendimento: 8.90954
+
+cliente38
+Hora de chegada: 379.755
+Tempo de Espera: 9.72118
+Tempo de Atendimento: 11.5627
+
+cliente39
+Hora de chegada: 393.717
+Tempo de Espera: 7.32141
+Tempo de Atendimento: 16.1441
+
+cliente40
+Hora de chegada: 408.958
+Tempo de Espera: 8.22476
+Tempo de Atendimento: 19.6099
+
+cliente41
+Hora de chegada: 416.191
+Tempo de Espera: 20.6016
+Tempo de Atendimento: 5.59306
+
+cliente42
+Hora de chegada: 432.898
+Tempo de Espera: 9.48788
+Tempo de Atendimento: 0.100003
+
+cliente43
+Hora de chegada: 436.282
+Tempo de Espera: 6.20334
+Tempo de Atendimento: 4.04229
+
+cliente44
+Hora de chegada: 442.003
+Tempo de Espera: 4.52494
+Tempo de Atendimento: 5.4438
+
+cliente45
+Hora de chegada: 449.034
+Tempo de Espera: 2.93776
+Tempo de Atendimento: 13.3461
+
+cliente46
+Hora de chegada: 449.542
+Tempo de Espera: 15.7761
+Tempo de Atendimento: 7.62039
+
+cliente47
+Hora de chegada: 462.735
+Tempo de Espera: 10.2036
+Tempo de Atendimento: 6.78512
+
+cliente48
+Hora de chegada: 476.305
+Tempo de Espera: 3.41852
+Tempo de Atendimento: 0.150765
+
+cliente49
+Hora de chegada: 476.812
+Tempo de Espera: 3.06157
+Tempo de Atendimento: 7.39813
+
+Quant: 50
+Média: 7.02359
